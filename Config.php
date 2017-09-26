@@ -62,9 +62,9 @@ class Config implements \ArrayAccess{
     }
 }
 
-class MyConfig extends Config{
-    static protected $vals = ['a'=>['b'=>11],'abc'=>111];
-}
+#class MyConfig extends Config{
+#    static protected $vals = ['a'=>['b'=>11],'abc'=>111];
+#}
 
 # 1 静态调用
 #var_dump(MyConfig::val('a.b'));
