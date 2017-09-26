@@ -1,0 +1,20 @@
+{
+    "version"     : "1.0.0-alpha",
+    "name"        : "hoopower/value",
+    "type"        : "project",
+    "description" : "PHP Value Cache",
+    "keywords"    : ["value", "cache","static cache"],
+    "homepage"    : "https://github.com/Vanni-Fan/php-value-cache",
+    "license"     : "MIT",
+    "authors"     : [
+        {
+            "name"  : "Vanni Fan",
+            "email" : "web.cn@msn.com"
+        }
+    ],
+    "autoload"  : {
+        "psr-4" : {
+            "Power\\"             : "./"
+        }
+    }
+}
