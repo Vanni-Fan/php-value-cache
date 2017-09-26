@@ -1,9 +1,6 @@
 <?php
 namespace Power;
 
-include './InstanceTrait.php';
-include './ValuesTrait.php';
-
 class Config implements \ArrayAccess{
     use InstanceTrait,ValuesTrait;
 
