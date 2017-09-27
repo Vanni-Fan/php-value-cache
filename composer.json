@@ -1,5 +1,4 @@
 {
-    "version"     : "1.0.1",
     "name"        : "hoopower/value",
     "type"        : "project",
     "description" : "PHP Value Cache",
@@ -12,9 +11,12 @@
             "email" : "web.cn@msn.com"
         }
     ],
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload"  : {
         "psr-4" : {
-            "Power\\"             : "./"
+            "Power\\" : "./"
         }
     }
 }
